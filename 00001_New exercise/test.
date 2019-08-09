@@ -1,0 +1,16 @@
+- name: La opción es correcta
+  keys:
+    primer_codigo_linea:
+      equal: bloque.
+- name: La opción es correcta
+  keys:
+    segundo_codigo_linea:
+      equal: linea.
+- name: La opción es correcta
+  keys:
+    tercer_codigo_linea:
+      equal: linea.
+- name: La opción es correcta
+  keys:
+    cuarto_codigo_linea:
+      equal: bloque.
