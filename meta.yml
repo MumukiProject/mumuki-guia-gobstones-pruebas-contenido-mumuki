@@ -7,7 +7,7 @@ teacher_info: ''
 language: gobstones
 id_format: "%05d"
 order:
-- 2
 - 1
+- 2
 - 3
 private: false
