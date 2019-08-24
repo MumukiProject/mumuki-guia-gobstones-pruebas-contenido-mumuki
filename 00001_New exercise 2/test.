@@ -1,16 +1,16 @@
 - name: La opción es correcta
   keys:
     primer_texto:
-      equal: "align: center".
+      equal: align: center
 - name: La opción es correcta
   keys:
     segundo_texto:
-      equal: "align: right".
+      equal: align: right
 - name: La opción es correcta
   keys:
     tercer_texto:
-      equal: "align: justify".
+      equal: align: justify
 - name: La opción es correcta
   keys:
     cuarto_texto:
-      equal: "align: left".
+      equal: align: left
