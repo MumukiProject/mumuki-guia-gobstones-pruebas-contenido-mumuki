@@ -87,11 +87,13 @@
 
 <script>
   mumuki.load(function () {
-    ["seleccion_1", "seleccion_2", "seleccion_3", "seleccion_4"].forEach(addCodeStyle)
+    ["seleccion_1", "seleccion_2", "seleccion_3", "seleccion_4"].forEach(addCodeStyle);
   })
   
   function addCodeStyle(elementId) {
+    console.log(elementId)
     if (document.getElementById(elementId).value != "Elegí el tipo de alineación"){
+      console.log(elementId)
       document.getElementById(elementId).className += ' codigo';
     }
   }
