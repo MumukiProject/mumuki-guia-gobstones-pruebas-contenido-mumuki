@@ -91,10 +91,12 @@
   })
   
   function addCodeStyle(elementId) {
-    console.log(elementId)
-    if (document.getElementById(elementId).value != "Elegí el tipo de alineación"){
-      console.log(elementId)
-      document.getElementById(elementId).className += ' codigo';
+    console.log(elementId);
+    var element = document.getElementById(elementId);
+    console.log(element);
+    if (element.value != "Elegí el tipo de alineación"){
+      console.log(element);
+      element.className += ' codigo';
     }
   }
 </script>
