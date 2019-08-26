@@ -86,7 +86,9 @@
 </style>
 
 <script>
-
+  mumuki.load(function () {
+    document.getElementById("seleccion_1").className += ' codigo'
+  })
   
   function onSelectChange(element_id){
     if (document.getElementById(element_id).value != "Elegí el tipo de alineación"){
