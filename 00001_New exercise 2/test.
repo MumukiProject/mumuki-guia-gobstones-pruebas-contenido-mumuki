@@ -5,7 +5,7 @@
 - name: La segunda opción es correcta
   keys:
     segundo_texto:
-      equal: right
+      equal: left
 - name: La tercera opción es correcta
   keys:
     tercer_texto:
@@ -13,4 +13,4 @@
 - name: La cuarta opción es correcta
   keys:
     cuarto_texto:
-      equal: left
+      equal: right
