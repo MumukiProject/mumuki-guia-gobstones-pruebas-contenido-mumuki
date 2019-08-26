@@ -10,7 +10,7 @@
   keys:
     tercer_texto:
       equal: align: justify
-- name: La ca¿uarta opción es correcta
+- name: La cuarta opción es correcta
   keys:
     cuarto_texto:
       equal: align: left
