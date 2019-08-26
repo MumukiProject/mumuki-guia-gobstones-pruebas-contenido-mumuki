@@ -89,7 +89,7 @@
 <script>
   mumuki.load(function () {
     ["seleccion_1", "seleccion_2", "seleccion_3", "seleccion_4"].forEach(function (elementId) {
-      addCodeStyle(elementId)
+      setTimeout(addCodeStyle.bind(null, elementId));
     });
   })
   
