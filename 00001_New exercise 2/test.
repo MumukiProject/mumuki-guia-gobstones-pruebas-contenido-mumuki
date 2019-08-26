@@ -1,16 +1,16 @@
 - name: La primera opción es correcta
   keys:
     primer_texto:
-      equal: align: center
+      equal: center
 - name: La segunda opción es correcta
   keys:
     segundo_texto:
-      equal: align: right
+      equal: right
 - name: La tercera opción es correcta
   keys:
     tercer_texto:
-      equal: align: justify
+      equal: justify
 - name: La cuarta opción es correcta
   keys:
     cuarto_texto:
-      equal: align: left
+      equal: left
