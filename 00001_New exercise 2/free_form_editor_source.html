@@ -86,7 +86,7 @@
 </style>
 
 <script>
-  document.getElementById("seleccion_1").onchange();
+  $("#seleccion_1, #seleccion_2, #seleccion_3, #seleccion_4").trigger('change');
   
   function onSelectChange(element_id){
     if (document.getElementById(element_id).value != "Elegí el tipo de alineación"){
