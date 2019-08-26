@@ -1,16 +1,2 @@
-- name: La primera opción es correcta
-  keys:
-    primer_texto:
-      equal: align: center
-- name: La segunda opción es correcta
-  keys:
-    segundo_texto:
-      equal: align: right
-- name: La tercera opción es correcta
-  keys:
-    tercer_texto:
-      equal: align: justify
-- name: La cuarta opción es correcta
-  keys:
-    cuarto_texto:
-      equal: align: left
+- name: Se completaron las preguntas
+  keys: {}
