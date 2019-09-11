@@ -1,16 +1,27 @@
-interactive: false
-check_head_position: false
+subject: CompletarCelda
+
+check_head_position: true
+
 examples:
- - initial_board: |
+ - title: 'Cuando hay alguna bolita negra, completa la celda'
+   initial_board: |
      GBB/1.0
      size 2 2
-     cell 0 1 Negro 1 
-     cell 1 1 Rojo 1 
-     cell 0 0 Azul 1 
-     cell 1 0 Verde 2 
+     cell 0 0 Negro 2
      head 0 0
    final_board: |
      GBB/1.0
      size 2 2
-     cell 1 1 Negro 1 
+     cell 0 0 Azul 1 Negro 2 Rojo 1 Verde 1
+     head 0 0
+ - title: 'Cuando no hay ninguna bolita negra, no hace nada'
+   initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Rojo 1
+     head 0 0
+   final_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 0 Rojo 1
      head 0 0
