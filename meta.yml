@@ -3,7 +3,10 @@ name: Pruebas Contenido Mumuki
 locale: es
 type: learning
 beta: false
-teacher_info: ''
+teacher_info: |-
+  probando probando
+
+  <img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/Construyendo%20Futurofinalhorizontal_1579800562856.jpg" alt="Construyendo Futurofinalhorizontal_1579800562856.jpg" width="auto" height="auto">
 language: gobstones
 id_format: "%05d"
 order:
