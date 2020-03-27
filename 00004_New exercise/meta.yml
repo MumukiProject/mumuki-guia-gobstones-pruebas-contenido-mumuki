@@ -5,6 +5,7 @@ layout: input_right
 editor: custom
 type: problem
 extra_visible: false
+teacher_info: ''
 manual_evaluation: false
 choices: []
 name: New exercise
