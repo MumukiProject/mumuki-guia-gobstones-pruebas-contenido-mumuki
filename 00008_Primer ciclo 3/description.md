@@ -1,20 +1,20 @@
 <div class="row" style="text-align: center;">
   <div class="column">
-    <img class="clickable" id = "opcion" src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/banana-01_1589300649534.png"/>
+    <img id = "opcion" src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/banana-01_1589300649534.png"/>
     </div>
   </div>
   <div class="column">
-    <img class="clickable" id = "opcion" src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/huevos-01_1589300688836.png"/>
+    <img id = "opcion" src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/huevos-01_1589300688836.png"/>
     </div>
   </div>
 </div>
 <div class="row" style="text-align: center;">
   <div class="column">
-    <img class="clickable" id = "opcion" src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/leche-01_1589300716679.png"/>
+    <img id = "opcion" src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/leche-01_1589300716679.png"/>
     </div>
   </div>
   <div class="column">
-    <img class="clickable" id = "opcion" src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/tomate-01_1589300741339.png"/>
+    <img id = "opcion" src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/tomate-01_1589300741339.png"/>
   </div>
 </div>
 
@@ -23,9 +23,6 @@
     box-sizing: border-box;
   }
     
-  .clickable {
-    cursor: pointer;
-  }
   
   /*img {
     border: 1px solid darkgrey;
