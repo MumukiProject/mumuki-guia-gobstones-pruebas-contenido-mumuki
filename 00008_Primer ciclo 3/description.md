@@ -99,7 +99,7 @@
   padding: 0 4px;
 }
 
-.column img {
+.column #opcion {
   margin-top: 8px;
   vertical-align: middle;
 }
