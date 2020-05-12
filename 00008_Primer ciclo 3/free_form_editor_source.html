@@ -144,7 +144,7 @@
   }
 
   function onChange(id) {
-    input = id;
+    input = getElementByID(id);
     input[0].setSelectionRange(start, start);
     input.focus();
   }
