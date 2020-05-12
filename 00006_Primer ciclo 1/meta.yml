@@ -10,7 +10,7 @@ teacher_info: ''
 manual_evaluation: false
 choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  value: ":arrow_right:"
+  value: ":arrow_right: :arrow_up:"
   checked: true
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: ":arrow_right:"
