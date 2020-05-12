@@ -16,7 +16,7 @@
 </div>
 <div class="row" style="text-align: center;">
   <div class="column">
-    <img class="clickable" id = "opcion" src="(https://user-images.githubusercontent.com/11671943/81729971-3f20aa80-9463-11ea-828f-59a8b0008c77.png" onclick="selectImage(3)"/>
+    <img class="clickable" id = "opcion" src="https://user-images.githubusercontent.com/11671943/81729971-3f20aa80-9463-11ea-828f-59a8b0008c77.png" onclick="selectImage(3)"/>
     <div class="imgblock field radio complementary complementary-radio">
       <input class="form-control mu-free-form-input clickable" type="radio" name="web_image" id="radio_3" value="3" onclick="selectImage(3)"/>
       <label for="radio_3"></label>
