@@ -57,16 +57,16 @@
   <div class="panel-body">
     <ol class="mu-inputs">
       <li>
-        <input name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo">
+        <input id="1" name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo" onchange="onChange(this.id)">
       </li>
       <li>
-        <input name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo">
+        <input id="2" name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo" onchange="onChange(this.id)">
       </li>
       <li>
-        <input name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo">
+        <input id="3" name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onchange="onChange(this.id)">
       </li>
       <li>
-        <input name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo">
+        <input id="4" name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onchange="onChange(this.id)">
       </li>
     </ol>
     <style>
@@ -93,7 +93,7 @@
 </div>
 
 
-<script>
+<!--script>
   let start;
   
   function writeEmoji(emoji) {
@@ -110,6 +110,40 @@
 
   function onChange() {
     const input = $('#emojis_message');
+    input[0].setSelectionRange(start, start);
+    input.focus();
+  }
+</script>
+
+<style>
+  .emoji-button {
+    background-color: #ecf0f1;
+    border: 1px solid #dce4ec;
+    border-radius: 4px;
+  }
+  
+  .emoji-button:focus {
+    outline-color: #0B456D;
+  }
+</style-->
+
+<script>
+  let start;
+  
+  function writeEmoji(emoji) {
+    const emojisInput = $('#emojis_message');
+    const emojiCursorStart = emojisInput.prop('selectionStart');
+    const emojiCursorEnd = emojisInput.prop('selectionEnd');
+    const value = emojisInput.val() || '';
+    const textBefore = value.substring(0,  emojiCursorStart);
+    const textAfter  = value.substring(emojiCursorEnd, value.length);
+    emojisInput.val(textBefore + emoji + textAfter);
+    start = emojiCursorStart + emoji.length;
+    $('#emojis_message.mu-free-form-input').change();
+  }
+
+  function onChange(id) {
+    var input = id;
     input[0].setSelectionRange(start, start);
     input.focus();
   }
