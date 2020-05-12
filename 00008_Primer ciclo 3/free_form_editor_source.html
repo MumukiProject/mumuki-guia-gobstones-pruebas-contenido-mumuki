@@ -129,9 +129,10 @@
 
 <script>
   let start;
+  let input;
   
   function writeEmoji(emoji) {
-    const emojisInput = #('#1');
+    const emojisInput = input;
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
     const value = emojisInput.val() || '';
@@ -143,7 +144,7 @@
   }
 
   function onChange(id) {
-    var input = id;
+    input = id;
     input[0].setSelectionRange(start, start);
     input.focus();
   }
