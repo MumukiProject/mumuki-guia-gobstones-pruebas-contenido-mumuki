@@ -129,10 +129,9 @@
 
 <script>
   let start;
-  let input;
   
   function writeEmoji(emoji) {
-    //const emojisInput = $('#cuatro');
+    const emojisInput = $('#cuatro');
     const emojisInput = input;
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
@@ -145,8 +144,7 @@
   }
 
   function onChange(id) {
-    //input = $('#cuatro')
-    input = document.getElementById(id)
+    input = $('#cuatro')
     input[0].setSelectionRange(start, start);
     input.focus();
   }
