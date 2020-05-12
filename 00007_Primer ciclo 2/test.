@@ -1,4 +1,4 @@
 - name: Se eligió la imagen correcta
   keys:
     web_image: 
-      equal: "2"
+      equal: "1"
