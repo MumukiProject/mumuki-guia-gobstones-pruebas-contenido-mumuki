@@ -3,19 +3,52 @@
   <button type="button" class="btn btn-secondary emoji-button" onclick="writeEmoji('➡️')">➡️</button>
   <button type="button" class="btn btn-secondary emoji-button" onclick="writeEmoji('⬅️')">⬅️</button>
   <button type="button" class="btn btn-secondary emoji-button" onclick="writeEmoji('⬆️')">⬆️</button>
+  <button type="button" class="btn btn-secondary emoji-button" onclick="writeEmoji('🚅️')">🚅️</button>
+  <button type="button" class="btn btn-secondary emoji-button" onclick="writeEmoji('🍮️')">🍮️</button>
+  <button type="button" class="btn btn-secondary emoji-button" onclick="writeEmoji('🚗️')">🚗️</button>
+  <button type="button" class="btn btn-secondary emoji-button" onclick="writeEmoji('🌼️')">🌼️</button>
 </div>
 <div class="form-horizontal">
   <div class="form-group">
     <div class="input-group">
-      <div class="input-group-addon">Mensaje encriptado</div>
-      <input 
+      <ol class="mu-inputs">
+      <li>
+        <input 
         id="emojis_message" 
-        name="emojis_message"
+        name="primer_dibujo"
         type="text" 
         class="form-control mu-free-form-input" 
         onchange="onChange()"
-        placeholder="Emojis">
-    </div>
+        placeholder="Primer dibujo">
+      </li>
+      <li>
+        <input 
+        id="emojis_message" 
+        name="segundo_dibujo"
+        type="text" 
+        class="form-control mu-free-form-input" 
+        onchange="onChange()"
+        placeholder="Segundo dibujo">
+      </li>
+      <li>
+        <input 
+        id="emojis_message" 
+        name="tercer_dibujo"
+        type="text" 
+        class="form-control mu-free-form-input" 
+        onchange="onChange()"
+        placeholder="Tercer dibujo">
+      </li>
+      <li>
+        <input 
+        id="emojis_message" 
+        name="cuarto_dibujo"
+        type="text" 
+        class="form-control mu-free-form-input" 
+        onchange="onChange()"
+        placeholder="Cuarto dibujo">
+      </li>
+    </ol>
   </div>
 </div>
 
