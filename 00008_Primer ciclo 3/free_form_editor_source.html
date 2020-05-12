@@ -145,8 +145,9 @@
 
   function onChange(id) {
     input = $(id);
-    input[0].setSelectionRange(start, start);
-    input.focus();
+    const actualInput = $(id)
+    actualInput[0].setSelectionRange(start, start);
+    actualInput.focus();
   }
 </script>
 
