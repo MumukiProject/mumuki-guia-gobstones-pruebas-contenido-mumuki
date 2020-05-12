@@ -131,7 +131,7 @@
   let start;
   
   function writeEmoji(emoji) {
-    ver emojisInput = document.getElementById(id);
+    var emojisInput = document.getElementById(id);
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
     const value = emojisInput.val() || '';
