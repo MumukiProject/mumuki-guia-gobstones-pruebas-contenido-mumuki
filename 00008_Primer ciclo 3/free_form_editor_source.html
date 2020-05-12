@@ -57,16 +57,16 @@
   <div class="panel-body">
     <ol class="mu-inputs">
       <li>
-        <input id="1" name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo" onchange="onChange(this.id)" class="form-control mu-free-form-input" type="text">
+        <input id="1" name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo" onchange="onChange()" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="2" name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo" onchange="onChange(this.id)" class="form-control mu-free-form-input" type="text">
+        <input id="2" name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo" onchange="onChange()" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="3" name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onchange="onChange(this.id)" class="form-control mu-free-form-input" type="text">
+        <input id="3" name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onchange="onChange()" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="4" name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onchange="onChange(this.id)" class="form-control mu-free-form-input" type="text">
+        <input id="4" name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onchange="onChange()" class="form-control mu-free-form-input" type="text">
       </li>
     </ol>
     <style>
@@ -142,7 +142,7 @@
     $('#1.mu-free-form-input').change();
   }
 
-  function onChange(id) {
+  function onChange() {
     const input = $('#1');
     input[0].setSelectionRange(start, start);
     input.focus();
