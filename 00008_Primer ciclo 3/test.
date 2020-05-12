@@ -1,0 +1,14 @@
+- name: El mensaje es correcto
+  keys:
+    emojis_message: 
+      equal: 🍉⭐🍄💡🤖👉🎲💜️🎲
+      
+      
+- name: El orden de los pasos para dibujar la flor es el correcto
+  keys:
+    primer_paso: 
+      contain: Empezá
+    segundo_paso:
+      contain: pétalos
+    tercer_paso:
+      contain: tallo
