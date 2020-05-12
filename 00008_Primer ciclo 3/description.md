@@ -75,6 +75,7 @@
 <div class="row" align= center>
   <div class="column">
     <img id = "opcion" src="https://user-images.githubusercontent.com/11671943/81729734-d9ccb980-9462-11ea-8b3d-9a7a2fba927a.png"/>
+    <p> 1 </p>
   </div>
   <div class="column">
     <img id = "opcion" src="https://user-images.githubusercontent.com/11671943/81729847-0d0f4880-9463-11ea-85f2-9e07738defe5.png"/>
