@@ -140,7 +140,7 @@
     const textAfter  = value.substring(emojiCursorEnd, value.length);
     emojisInput.val(textBefore + emoji + textAfter);
     start = emojiCursorStart + emoji.length;
-    $('#1.mu-free-form-input').change();
+    input.change();
   }
 
   function onChange(id) {
