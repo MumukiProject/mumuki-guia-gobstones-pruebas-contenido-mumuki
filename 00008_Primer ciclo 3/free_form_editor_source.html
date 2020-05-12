@@ -129,9 +129,11 @@
 
 <script>
   let start;
+  let input;
   
   function writeEmoji(emoji) {
-    const emojisInput = $('#cuatro');
+    //const emojisInput = $('#cuatro');
+    const emojisInput = input;
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
     const value = emojisInput.val() || '';
@@ -139,11 +141,12 @@
     const textAfter  = value.substring(emojiCursorEnd, value.length);
     emojisInput.val(textBefore + emoji + textAfter);
     start = emojiCursorStart + emoji.length;
-    $('#cuatro.mu-free-form-input').change();
+    //$('#cuatro.mu-free-form-input').change();
   }
 
   function onChange(id) {
-    input = $('#cuatro')
+    //input = $('#cuatro')
+    input = document.getElementById(id)
     input[0].setSelectionRange(start, start);
     input.focus();
   }
