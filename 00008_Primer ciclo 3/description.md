@@ -72,7 +72,7 @@
   }
 </style-->
 
-<div class="row">
+<div class="row" margin= auto>
   <div class="column">
     <img id = "opcion" src="https://user-images.githubusercontent.com/11671943/81729734-d9ccb980-9462-11ea-8b3d-9a7a2fba927a.png"/>
   </div>
