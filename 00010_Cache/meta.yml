@@ -9,4 +9,4 @@ language: javascript
 teacher_info: ''
 manual_evaluation: false
 choices: []
-name: New exercise
+name: Cache
