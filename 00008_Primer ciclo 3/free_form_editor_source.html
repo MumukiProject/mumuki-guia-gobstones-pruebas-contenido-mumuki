@@ -68,7 +68,7 @@
     const textAfter  = value.substring(emojiCursorEnd, value.length);
     emojisInput.val(textBefore + emoji + textAfter);
     start = emojiCursorStart + emoji.length;
-    $('#${inputId}.mu-free-form-input').change();
+    $('#${currentCursor}.mu-free-form-input').change();
   }
 
   function onChange(inputId) {
