@@ -8,65 +8,21 @@
   <button type="button" class="btn btn-secondary emoji-button" onclick="writeEmoji('🚗️')">🚗️</button>
   <button type="button" class="btn btn-secondary emoji-button" onclick="writeEmoji('🌼️')">🌼️</button>
 </div>
-<!--div class="form-horizontal">
-  <div class="form-group">
-    <div class="input-group">
-      <ol class="mu-inputs">
-      <li>
-        <input 
-        id="emojis_message" 
-        name="primer_dibujo"
-        type="text" 
-        class="form-control mu-free-form-input" 
-        onchange="onChange()"
-        placeholder="Primer dibujo">
-      </li>
-      <li>
-        <input 
-        id="emojis_message" 
-        name="segundo_dibujo"
-        type="text" 
-        class="form-control mu-free-form-input" 
-        onchange="onChange()"
-        placeholder="Segundo dibujo">
-      </li>
-      <li>
-        <input 
-        id="emojis_message" 
-        name="tercer_dibujo"
-        type="text" 
-        class="form-control mu-free-form-input" 
-        onchange="onChange()"
-        placeholder="Tercer dibujo">
-      </li>
-      <li>
-        <input 
-        id="emojis_message" 
-        name="cuarto_dibujo"
-        type="text" 
-        class="form-control mu-free-form-input" 
-        onchange="onChange()"
-        placeholder="Cuarto dibujo">
-      </li>
-      </ol>
-    </div>
-  </div>
-</div-->
 
 <div class="panel panel-default" style="width:100%;">
   <div class="panel-body">
     <ol class="mu-inputs">
       <li>
-        <input id="uno" name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo" onchange="onChange('uno')" class="form-control mu-free-form-input" type="text">
+        <input id="uno" name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo" onclick="setCursor('one')" onchange="onChange('uno')" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="dos" name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo" onchange="onChange('dos')" class="form-control mu-free-form-input" type="text">
+        <input id="dos" name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo" onclick="setCursor('dos')" onchange="onChange('dos')" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="tres" name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onchange="onChange('tres')" class="form-control mu-free-form-input" type="text">
+        <input id="tres" name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onclick="setCursor('tres')" onchange="onChange('tres')" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="cuatro" name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Cuarto dibujo" onchange="onChange('cuatro')" class="form-control mu-free-form-input" type="text">
+        <input id="cuatro" name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Cuarto dibujo" onclick="setCursor('cuatro')" onchange="onChange('cuatro')" class="form-control mu-free-form-input" type="text">
       </li>
     </ol>
     <style>
@@ -92,66 +48,19 @@
   </div>
 </div>
 
-
-<!--script>
-  let start;
-  
-  function writeEmoji(emoji) {
-    const emojisInput = $('#emojis_message');
-    const emojiCursorStart = emojisInput.prop('selectionStart');
-    const emojiCursorEnd = emojisInput.prop('selectionEnd');
-    const value = emojisInput.val() || '';
-    const textBefore = value.substring(0,  emojiCursorStart);
-    const textAfter  = value.substring(emojiCursorEnd, value.length);
-    emojisInput.val(textBefore + emoji + textAfter);
-    start = emojiCursorStart + emoji.length;
-    $('#emojis_message.mu-free-form-input').change();
-  }
-
-  function onChange() {
-    const input = $('#emojis_message');
-    input[0].setSelectionRange(start, start);
-    input.focus();
-  }
-</script>
-
-<style>
-  .emoji-button {
-    background-color: #ecf0f1;
-    border: 1px solid #dce4ec;
-    border-radius: 4px;
-  }
-  
-  .emoji-button:focus {
-    outline-color: #0B456D;
-  }
-</style-->
-
 <script>
   let start;
+  let currentCursor = 'uno';
 /* 
   function writeEmoji(emoji) {
     var doc = mumuki.page.editors[0].getDoc();
     var cursor = doc.getCursor();
     doc.replaceRange(emoji, cursor);
   }
-  
-  function writeEmoji(emoji) {
-    const emojisInput = $('#${inputId}');
-    const emojiCursorStart = emojisInput.prop('selectionStart');
-    const emojiCursorEnd = emojisInput.prop('selectionEnd');
-    const value = emojisInput.val() || '';
-    const textBefore = value.substring(0,  emojiCursorStart);
-    const textAfter  = value.substring(emojiCursorEnd, value.length);
-    emojisInput.val(textBefore + emoji + textAfter);
-    start = emojiCursorStart + emoji.length;
-    $('#${inputId}.mu-free-form-input').change();
-  }
 */
 
   function writeEmoji(emoji) {
-    var doc = mumuki.page.inputs[1].getDoc();
-    var emojisInput = doc.getCursor();
+    const emojisInput = $('#${currentCursor}');
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
     const value = emojisInput.val() || '';
@@ -166,6 +75,10 @@
     input = $('#${inputId}')
     input[0].setSelectionRange(start, start);
     input.focus();
+  }
+  
+  function setCursor(inputId) {
+    currentCursor = inputId;
   }
 </script>
 
