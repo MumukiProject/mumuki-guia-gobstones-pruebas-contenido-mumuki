@@ -3,17 +3,17 @@
     primer_dibujo: 
       equal: ⬆️🚅️
 
-- name: Las instrucciones del primer dibujo son correctas
+- name: Las instrucciones del segundo dibujo son correctas
   keys:
     segundo_dibujo: 
       equal: ⬆️➡️🚗️
       
-- name: Las instrucciones del primer dibujo son correctas
+- name: Las instrucciones del tercer dibujo son correctas
   keys:
     tercer_dibujo: 
       equal: ➡️🍮️
       
-- name: Las instrucciones del primer dibujo son correctas
+- name: Las instrucciones del cuarto dibujo son correctas
   keys:
     cuarto_dibujo: 
       equal: 🌼️
