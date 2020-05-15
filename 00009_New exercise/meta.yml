@@ -5,16 +5,18 @@ layout: input_kids
 editor: custom
 type: problem
 extra_visible: false
-teacher_info: |-
-  <div class="teacherInfo">
-  Esta actividad se basa en las resoluciones de los ejercicios anteriores. Cuando esas soluciones no están del todo bien, podemos arrastrar errores que nos dificultan la resolución del ejercicio. Siempre es importante mirar hacia atrás e identificar dónde podemos habernos equivocado antes de seguir. ¿Cuál es la modificación respecto al ejercicio anterior? ¿Cuál es el objetivo del programa en este caso? ¿De qué se debe ocupar el procedimiento “Plantar bandera” y cómo lo podemos aprovechar dentro del nuevo programa? ¿De qué forma elegiste recorrer el tablero? ¿Tendremos que repetir alguna acción? ¿Qué ocurría con el número de repeticiones y las instrucciones dentro de este bloque cuando teníamos tareas que combinaban desplazamientos y otras acciones?
-  </div>
-  <style>
-  .teacherInfo {
-    height: 50%;
-    overflow: scroll;
-  }
-  </style>
+teacher_info: 'Esta actividad se basa en las resoluciones de los ejercicios anteriores.
+  Cuando esas soluciones no están del todo bien, podemos arrastrar errores que nos
+  dificultan la resolución del ejercicio. Siempre es importante mirar hacia atrás
+  e identificar dónde podemos habernos equivocado antes de seguir. ¿Cuál es la modificación
+  respecto al ejercicio anterior? ¿Cuál es el objetivo del programa en este caso?
+  ¿De qué se debe ocupar el procedimiento “Plantar bandera” y cómo lo podemos aprovechar
+  dentro del nuevo programa? ¿De qué forma elegiste recorrer el tablero? ¿Tendremos
+  que repetir alguna acción? ¿Qué ocurría con el número de repeticiones y las instrucciones
+  dentro de este bloque cuando teníamos tareas que combinaban desplazamientos y otras
+  acciones?
+
+'
 manual_evaluation: false
 choices: []
 name: New exercise
