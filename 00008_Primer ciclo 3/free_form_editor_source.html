@@ -54,7 +54,7 @@
 
   function writeEmoji(emoji) {
     console.log(`#${inputId}`)
-    const emojisInput = $("#" + inputId);
+    const emojisInput = $(`#${inputId}`);
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
     const value = emojisInput.val() || '';
@@ -62,11 +62,11 @@
     const textAfter  = value.substring(emojiCursorEnd, value.length);
     emojisInput.val(textBefore + emoji + textAfter);
     start = emojiCursorStart + emoji.length;
-    $("#" + inputId + ".mu-free-form-input").change();
+    $(`#${inputId}.mu-free-form-input`).change();
   }
 
   function onChange(inputId) {
-    input = $("#" + inputId)
+    input = $(`#${inputId}`)
     input[0].setSelectionRange(start, start);
     input.focus();
   }
