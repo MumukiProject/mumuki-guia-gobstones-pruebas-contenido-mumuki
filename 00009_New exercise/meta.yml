@@ -5,7 +5,12 @@ layout: input_kids
 editor: custom
 type: problem
 extra_visible: false
-teacher_info: ''
+teacher_info: 'A la hora de programar equivocarse es parte ineludible de la tarea.
+  Cuando programamos nos equivocamos, probamos modificaciones e ideas y eso nos ayuda
+  a comprender mejor el problema y las formas de resolverlo. Aprovechemos esta oportunidad
+  para trabajar las equivocaciones como algo deseable y lejos de frustraciones. El
+  "Boom" puede ser una forma de desdramatizar el rol del error: hace mucho ruido pero
+  no rompe nada.'
 manual_evaluation: false
 choices: []
 name: New exercise
