@@ -57,16 +57,16 @@
   <div class="panel-body">
     <ol class="mu-inputs">
       <li>
-        <input id="uno" name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo" onchange="onChange(this.id)" class="form-control mu-free-form-input" type="text">
+        <input id="uno" name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo" onchange="onChange('uno')" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="dos" name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo" onchange="onChange(this.id)" class="form-control mu-free-form-input" type="text">
+        <input id="dos" name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo" onchange="onChange('dos')" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="tres" name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onchange="onChange(this.id)" class="form-control mu-free-form-input" type="text">
+        <input id="tres" name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onchange="onChange('tres')" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="cuatro" name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Cuarto dibujo" onchange="onChange(this.id)" class="form-control mu-free-form-input" type="text">
+        <input id="cuatro" name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Cuarto dibujo" onchange="onChange('cuatro')" class="form-control mu-free-form-input" type="text">
       </li>
     </ol>
     <style>
@@ -129,9 +129,15 @@
 
 <script>
   let start;
+/* 
+  function writeEmoji(emoji) {
+    var doc = mumuki.page.editors[0].getDoc();
+    var cursor = doc.getCursor();
+    doc.replaceRange(emoji, cursor);
+  }
   
   function writeEmoji(emoji) {
-    const emojisInput = $('#cuatro');
+    const emojisInput = $('#${inputId}');
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
     const value = emojisInput.val() || '';
@@ -139,11 +145,25 @@
     const textAfter  = value.substring(emojiCursorEnd, value.length);
     emojisInput.val(textBefore + emoji + textAfter);
     start = emojiCursorStart + emoji.length;
-    $('#cuatro.mu-free-form-input').change();
+    $('#${inputId}.mu-free-form-input').change();
+  }
+*/
+
+  function writeEmoji(emoji) {
+    var doc = mumuki.page.editors[0].getDoc();
+    var emojisInput = doc.getCursor();
+    const emojiCursorStart = emojisInput.prop('selectionStart');
+    const emojiCursorEnd = emojisInput.prop('selectionEnd');
+    const value = emojisInput.val() || '';
+    const textBefore = value.substring(0,  emojiCursorStart);
+    const textAfter  = value.substring(emojiCursorEnd, value.length);
+    emojisInput.val(textBefore + emoji + textAfter);
+    start = emojiCursorStart + emoji.length;
+    $('#${inputId}.mu-free-form-input').change();
   }
 
-  function onChange(id) {
-    input = $('#cuatro')
+  function onChange(inputId) {
+    input = $('#${inputId}')
     input[0].setSelectionRange(start, start);
     input.focus();
   }
