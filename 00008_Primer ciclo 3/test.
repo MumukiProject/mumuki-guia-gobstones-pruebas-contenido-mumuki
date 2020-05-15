@@ -1,14 +1,19 @@
 - name: Las instrucciones del primer dibujo son correctas
   keys:
-    emojis_message: 
-      equal: 
-      
-      
-- name: El orden de los pasos para dibujar la flor es el correcto
+    primer_dibujo: 
+      equal: ⬆️🚅️
+
+- name: Las instrucciones del primer dibujo son correctas
   keys:
-    primer_paso: 
-      contain: Empezá
-    segundo_paso:
-      contain: pétalos
-    tercer_paso:
-      contain: tallo
+    segundo_dibujo: 
+      equal: ⬆️➡️🚗️
+      
+- name: Las instrucciones del primer dibujo son correctas
+  keys:
+    tercer_dibujo: 
+      equal: ➡️🍮️
+      
+- name: Las instrucciones del primer dibujo son correctas
+  keys:
+    cuarto_dibujo: 
+      equal: 🌼️
