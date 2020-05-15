@@ -50,7 +50,7 @@
 
 <script>
   let start;
-  let currentCursor = 'uno';
+  let inputId = 'uno';
 /* 
   function writeEmoji(emoji) {
     var doc = mumuki.page.editors[0].getDoc();
@@ -60,7 +60,7 @@
 */
 
   function writeEmoji(emoji) {
-    const emojisInput = $('#${currentCursor}');
+    const emojisInput = $('#${inputId}');
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
     const value = emojisInput.val() || '';
@@ -68,7 +68,7 @@
     const textAfter  = value.substring(emojiCursorEnd, value.length);
     emojisInput.val(textBefore + emoji + textAfter);
     start = emojiCursorStart + emoji.length;
-    $('#${currentCursor}.mu-free-form-input').change();
+    $('#${inputId}.mu-free-form-input').change();
   }
 
   function onChange(inputId) {
@@ -77,8 +77,8 @@
     input.focus();
   }
   
-  function setCursor(inputId) {
-    currentCursor = inputId;
+  function setCursor(id) {
+    inputId = id;
   }
 </script>
 
