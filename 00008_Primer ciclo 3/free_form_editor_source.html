@@ -150,7 +150,7 @@
 */
 
   function writeEmoji(emoji) {
-    var doc = mumuki.page.editors[0].getDoc();
+    var doc = mumuki.page.inputs[1].getDoc();
     var emojisInput = doc.getCursor();
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
