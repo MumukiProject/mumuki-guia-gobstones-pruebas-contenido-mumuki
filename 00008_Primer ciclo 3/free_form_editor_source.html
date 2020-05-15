@@ -60,8 +60,8 @@
 */
 
   function writeEmoji(emoji) {
-    console.log('#${inputId}');
-    const emojisInput = $('#${inputId}');
+    console.log('#$' + inputId);
+    const emojisInput = $('#$' + inputId);
     const emojiCursorStart = emojisInput.prop('selectionStart');
     const emojiCursorEnd = emojisInput.prop('selectionEnd');
     const value = emojisInput.val() || '';
