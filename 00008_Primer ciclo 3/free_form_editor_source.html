@@ -13,16 +13,16 @@
   <div class="panel-body">
     <ol class="mu-inputs">
       <li>
-        <input id="uno" name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo" onclick="setCursor('uno')" onchange="onChange('uno')" class="form-control mu-free-form-input" type="text">
+        <input id="primer_dibujo" name="primer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Primer dibujo" onclick="setCursor('primer_dibujo')" onchange="onChange('uno')" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="dos" name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo" onclick="setCursor('dos')" onchange="onChange('dos')" class="form-control mu-free-form-input" type="text">
+        <input id="segundo_dibujo" name="segundo_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Segundo dibujo" onclick="setCursor('segundo_dibujo')" onchange="onChange('dos')" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="tres" name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onclick="setCursor('tres')" onchange="onChange('tres')" class="form-control mu-free-form-input" type="text">
+        <input id="tercer_dibujo" name="tercer_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Tercer dibujo" onclick="setCursor('tercer_dibujo')" onchange="onChange('tres')" class="form-control mu-free-form-input" type="text">
       </li>
       <li>
-        <input id="cuatro" name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Cuarto dibujo" onclick="setCursor('cuatro')" onchange="onChange('cuatro')" class="form-control mu-free-form-input" type="text">
+        <input id="cuarto_dibujo" name="cuarto_dibujo" type="text" class="form-control mu-free-form-input" placeholder="Cuarto dibujo" onclick="setCursor('cuarto_dibujo')" onchange="onChange('cuatro')" class="form-control mu-free-form-input" type="text">
       </li>
     </ol>
     <style>
@@ -50,7 +50,7 @@
 
 <script>
   let start;
-  let inputId = 'uno';
+  let inputId;
 
   function writeEmoji(emoji) {
     const emojisInput = $(`#${inputId}`);

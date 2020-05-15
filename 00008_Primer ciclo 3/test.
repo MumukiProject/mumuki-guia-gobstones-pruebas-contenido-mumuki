@@ -1,7 +1,7 @@
-- name: El mensaje es correcto
+- name: Las instrucciones del primer dibujo son correctas
   keys:
     emojis_message: 
-      equal: 🍉⭐🍄💡🤖👉🎲💜️🎲
+      equal: 
       
       
 - name: El orden de los pasos para dibujar la flor es el correcto
