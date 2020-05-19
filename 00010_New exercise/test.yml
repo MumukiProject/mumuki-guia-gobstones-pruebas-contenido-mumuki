@@ -1,5 +1,5 @@
 interactive: false
-check_head_position: false
+check_head_position: true
 examples:
  - initial_board: |
      GBB/1.0
