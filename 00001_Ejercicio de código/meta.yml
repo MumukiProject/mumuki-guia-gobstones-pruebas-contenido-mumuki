@@ -7,6 +7,6 @@ type: problem
 extra_visible: false
 language: javascript
 teacher_info: ''
-manual_evaluation: false
+manual_evaluation: true
 choices: []
 name: Ejercicio de código
