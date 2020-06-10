@@ -1,1 +1,5 @@
-codigo extra de la guia
+prodecure Poner3(color) {
+  repeat(3) {
+    Poner(color)
+  }
+}
