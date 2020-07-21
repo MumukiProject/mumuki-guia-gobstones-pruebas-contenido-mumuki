@@ -1,0 +1,16 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: 0
+type: interactive
+extra_visible: false
+language: python3
+teacher_info: ''
+manual_evaluation: false
+choices: []
+goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  kind: query_outputs
+  query: x == 4
+  output: 'True'
+name: Interactivo Python3
