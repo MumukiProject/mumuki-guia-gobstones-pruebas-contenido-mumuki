@@ -10,5 +10,7 @@ teacher_info: ''
 manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  kind: last_query_passes
+  kind: query_outputs
+  query: x == 4
+  output: 'True'
 name: Interactivo Python3
