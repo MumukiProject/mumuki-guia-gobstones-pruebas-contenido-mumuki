@@ -11,6 +11,6 @@ manual_evaluation: false
 choices: []
 goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: query_outputs
-  query: x == 4
+  query: 4 == x
   output: 'True'
 name: Interactivo Python3
