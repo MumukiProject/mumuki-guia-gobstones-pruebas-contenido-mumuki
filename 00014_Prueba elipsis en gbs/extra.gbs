@@ -3,21 +3,6 @@ function nroBolitasTotal() {
   return (nroBolitas(Azul) + nroBolitas(Negro) + nroBolitas(Rojo) + nroBolitas(Verde))
 }/*@elipsis-for-student>*/
 
-
-/*Nos dice cuantas bolitas hay si no contamos el color recibido por parámetro. Por ejemplo:
-
-todasExcepto(Negro) en este tablero:
-
-<gs-board>
- GBB/1.0
- size 1 1
- cell 0 0 Rojo 1 Verde 2 Negro 3 Azul 4
- head 0 0
-<gs-board>
-
-nos retornaría 7 porque hay 1 roja, 2 verdes y 4 azules.
-*/
-
 function todasExcepto(color) /*<elipsis-for-student@*/ {
     return (nroBolitasTotal() - nroBolitas(color))
 } /*@elipsis-for-student>*/
