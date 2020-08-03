@@ -11,9 +11,9 @@ function nroBolitasTotal() {
 /* Nos dice cuantas bolitas hay si no contamos el color recibido por parámetro. */
 
 function todasExcepto(color) { 
-  /*
-  <elipsis-for-student@
-  */
+/*
+<elipsis-for-student@
+*/
     return (nroBolitasTotal() - nroBolitas(color))
 /*
 @elipsis-for-student>
