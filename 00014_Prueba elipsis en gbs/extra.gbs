@@ -8,13 +8,14 @@ function nroBolitasTotal() {
 */ 
 }
 
-/* Nos dice cuantas bolitas hay si no contamos el color recibido por parámetro. */
+/*Nos dice cuantas bolitas hay si no contamos el color recibido por parámetro. Por ejemplo, si tenemos un casillero con 1 bolita roja, 2 verdes, 3 negras y 4 azules todasExcepto(Negro) nos retornaría 7 (1 + 2 + 4).
+*/
 
 function todasExcepto(color) { 
 /*
 <elipsis-for-student@
 */
-    return (nroBolitasTotal() - nroBolitas(color))
+  return (nroBolitasTotal() - nroBolitas(color))
 /*
 @elipsis-for-student>
 */ 
