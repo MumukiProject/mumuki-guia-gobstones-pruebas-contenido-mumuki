@@ -1,11 +1,10 @@
-/*<elipsis-for-student@*/
-function nroBolitasTotal() {
+function nroBolitasTotal() { /*<elipsis-for-student@*/
   return (nroBolitas(Azul) + nroBolitas(Negro) + nroBolitas(Rojo) + nroBolitas(Verde))
-}/*@elipsis-for-student>*/
+/*@elipsis-for-student>*/ }
 
 
-// Nos dice cuantas bolitas hay si no contamos el color recibido por parámetro.
+/* Nos dice cuantas bolitas hay si no contamos el color recibido por parámetro. */
 
-function todasExcepto(color) /*<elipsis-for-student@*/ {
+function todasExcepto(color) { /*<elipsis-for-student@*/
     return (nroBolitasTotal() - nroBolitas(color))
-} /*@elipsis-for-student>*/
+/*@elipsis-for-student>*/ } 
