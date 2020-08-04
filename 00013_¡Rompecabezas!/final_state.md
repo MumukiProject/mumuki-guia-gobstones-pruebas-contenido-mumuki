@@ -1,1 +1,0 @@
-<img src='https://flbulgarelli.github.io/headbreaker/static/berni.jpg'>
