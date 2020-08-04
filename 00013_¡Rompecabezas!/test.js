@@ -1,5 +1,5 @@
-Muzzle.canvasHeight = 400
-Muzzle.canvasWidth = 400
+Muzzle.canvasHeight = 600
+Muzzle.canvasWidth = 600
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
 
 // with left and right pieces
