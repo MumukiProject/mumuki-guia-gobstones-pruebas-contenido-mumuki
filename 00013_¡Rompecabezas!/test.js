@@ -1,7 +1,7 @@
 Muzzle.canvasHeight = 600;
 Muzzle.canvasWidth = 1200;
 Muzzle.pieceSize = 200;
-Muzzle.baseConfig.strokeWidth = 0;
+Muzzle.baseConfig.strokeWidth = 2;
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
 
 // with left and right pieces
