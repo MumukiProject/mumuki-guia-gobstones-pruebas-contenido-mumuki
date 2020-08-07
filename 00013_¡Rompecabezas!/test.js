@@ -7,27 +7,27 @@ const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gob
 
 
 // caso "choice"
-Muzzle.match([
-  `${baseUrl}/va_vacio.png`
-], [
-  `${baseUrl}/va_fru.png`,
-], [
-  `${baseUrl}/cu_vai.png`,
-  `${baseUrl}/choc_mitad_vacio2.png`
-]);
+//Muzzle.match([
+//  `${baseUrl}/va_vacio.png`
+//], [
+//  `${baseUrl}/va_fru.png`,
+//], [
+//  `${baseUrl}/cu_vai.png`,
+//  `${baseUrl}/choc_mitad_vacio2.png`
+//]);
 
 
 // caso "unir con flechas"
-// Muzzle.match([
-//   `${baseUrl}/va_vacio.png`,
-//   `${baseUrl}/cu_vacio.png`,
-//   `${baseUrl}/chips_poco.png`
-// ], [
-//   `${baseUrl}/va_fru.png`,
-//   `${baseUrl}/cu_vai.png`,
-//   `${baseUrl}/chips_mucho.png`,
-// ], [
-////   `${baseUrl}/choc_mitad_vacio2.png` // opcional
-// ]);
+Muzzle.match([
+   `${baseUrl}/va_vacio.png`,
+   `${baseUrl}/cu_vacio.png`,
+   `${baseUrl}/chips_poco.png`
+ ], [
+   `${baseUrl}/va_fru.png`,
+   `${baseUrl}/cu_vai.png`,
+   `${baseUrl}/chips_mucho.png`,
+ ], [
+   `${baseUrl}/choc_mitad_vacio2.png` // opcional
+ ]);
 
 
