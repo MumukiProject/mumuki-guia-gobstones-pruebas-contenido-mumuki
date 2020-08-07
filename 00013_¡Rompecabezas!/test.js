@@ -1,3 +1,14 @@
+/*{
+  "positions": [
+    [10, 20],
+    [15, 20],
+    [20, 20],
+    [10, 25],
+    [15, 25],
+    [20, 25]
+  ]
+}:*/
+
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 600;
 Muzzle.canvasWidth = 1200;
