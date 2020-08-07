@@ -1,20 +1,11 @@
-/*{
-  "positions": [
-    [10, 20],
-    [15, 20],
-    [20, 20],
-    [10, 25],
-    [15, 25],
-    [20, 25]
-  ]
-}:*/
-
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 600;
 Muzzle.canvasWidth = 1200;
 Muzzle.pieceSize = 200;
 
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
+
+Muzzle.basic(3, 2, 'https://flbulgarelli.github.io/headbreaker/static/berni.jpg');
 
 
 // caso "choice"
@@ -29,7 +20,7 @@ const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gob
 
 
 // caso "unir con flechas"
-Muzzle.match([
+/*Muzzle.match([
    `${baseUrl}/va_vacio.png`,
    `${baseUrl}/cu_vacio.png`,
    `${baseUrl}/chips_poco.png`
@@ -40,5 +31,5 @@ Muzzle.match([
  ], [
    `${baseUrl}/choc_mitad_vacio2.png` // opcional
  ]);
-
+*/
 
