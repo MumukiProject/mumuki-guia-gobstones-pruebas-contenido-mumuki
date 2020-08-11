@@ -1,5 +1,5 @@
 // estas tres lineas son opcionales
-Muzzle.canvasHeight = 1200;
+Muzzle.canvasHeight = 500;
 Muzzle.canvasWidth = 1200;
 Muzzle.pieceSize = 100;
 // Muzzle.strokeWidth = 0;
