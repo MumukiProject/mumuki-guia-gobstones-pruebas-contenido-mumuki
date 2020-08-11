@@ -1,3 +1,3 @@
-<div style='position:relative; padding-bottom:calc(100.00% + 44px)'><iframe src='https://gfycat.com/ifr/AdorableShadyAmericankestrel' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div><p> <a href="https://gfycat.com/adorableshadyamericankestrel">via Gfycat</a></p>
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/ice_cream_1597161177050.gif" alt="ice_cream_1597161177050.gif" width="auto" height="auto">
 
 > UNÍ LOS PARES CORRESPONDIENTES :icecream::shaved_ice::confetti_ball:
