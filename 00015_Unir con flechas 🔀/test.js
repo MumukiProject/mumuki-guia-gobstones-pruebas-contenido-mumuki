@@ -1,7 +1,7 @@
 // estas tres lineas son opcionales
-Muzzle.canvasHeight = 1200;
+Muzzle.canvasHeight = 500;
 Muzzle.canvasWidth = 1200;
-Muzzle.pieceSize = 100;
+Muzzle.pieceSize = 50;
 // Muzzle.strokeWidth = 0;
 
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
