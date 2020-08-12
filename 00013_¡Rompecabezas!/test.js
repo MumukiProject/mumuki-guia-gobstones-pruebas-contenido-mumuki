@@ -1,4 +1,5 @@
-$('.mu-kids-state-image').attr('style', 'opacity: 0.5');
+$('.mu-kids-state-image').css('opacity',  '0.5');
+$('canvas').css('border-style',  'solid');
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 380;
