@@ -9,7 +9,7 @@ const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gob
 Muzzle.basic(5, 5, 'https://flbulgarelli.github.io/headbreaker/static/berni.jpg');
 
 mumuki.load(function() {
-  $('.mu-kids-character-animation').remove;
+  $('.mu-kids-state-image img').setAttribute("opacity", "0.3");
 });
 
 // caso "choice"
