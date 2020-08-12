@@ -1,6 +1,6 @@
 $('.mu-kids-state-image').css('opacity', '0.5');
-$('canvas').attr('style', 'border: 5px');
-$('canvas').attr('style', 'border-style: solid');
+$('canvas').css('border', '5px');
+$('canvas').css('border-style', 'solid');
 $('.btn-submit-container').remove();
 
 // estas tres lineas son opcionales
