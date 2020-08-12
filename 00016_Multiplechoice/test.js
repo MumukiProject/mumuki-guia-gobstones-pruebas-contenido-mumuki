@@ -3,7 +3,7 @@ $('#muzzle-canvas').css('border-style', 'solid');
 $('#muzzle-canvas').css('margin-top', '15px');
 $('#muzzle-canvas').css('border-radius', '10px');
 $('.mu-kids-exercise .mu-kids-character .mu-kids-character-speech-bubble').css('width', '50%');
-$('.mu-kids-character').append('<div align="left" margin-left="100px"><img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_apagada-01_1597270246443.png" alt="luz_apagada-01_1597270246443.png" width="auto" height="auto"></div>');
+$('.mu-kids-character').append('<div align="left" margin-left="100px"><img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_apagada-01_1597270246443.png" alt="luz_apagada-01_1597270246443.png" width="50%" height="50%"></div>');
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 450;
