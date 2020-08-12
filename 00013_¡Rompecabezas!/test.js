@@ -2,7 +2,7 @@ $('.mu-kids-state-image').css('opacity', '0.5');
 $('#muzzle-canvas').css('border', '5px');
 $('#muzzle-canvas').css('border-style', 'solid');
 $('#muzzle-canvas').css('margin-top', '15px');
-$('#muzzle-canvas').css('border-radius', '5px');
+$('#muzzle-canvas').css('border-radius', '10px');
 $('.btn-submit-container').remove();
 $('.progress-list-flex a.active:after').css('content', '13');
 
