@@ -1,6 +1,4 @@
-mumuki.load(function() {
-  $('.mu-kids-state-image').style.opacity = "0.5";
-});
+$('.mu-kids-state-image').attr('style', 'opacity: 0.5');
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 380;
