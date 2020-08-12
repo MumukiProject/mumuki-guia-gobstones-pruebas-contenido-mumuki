@@ -1,3 +1,8 @@
+$('#muzzle-canvas').css('border', '3px');
+$('#muzzle-canvas').css('border-style', 'solid');
+$('#muzzle-canvas').css('margin-top', '15px');
+$('#muzzle-canvas').css('border-radius', '10px');
+
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 600;
 Muzzle.canvasWidth = 1200;
