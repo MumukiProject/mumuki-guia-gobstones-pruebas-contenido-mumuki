@@ -37,6 +37,7 @@ Muzzle.match([
           canvas.draw();
         });
         
+<html>        
 <style>
 /* Popup container */
 .popup {
@@ -91,3 +92,4 @@ Muzzle.match([
   to {opacity:1 ;}
 }
 </style>
+</html>
