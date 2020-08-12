@@ -19,8 +19,8 @@ Muzzle.match([
  ]/*, [
    `${baseUrl}/choc_mitad_vacio2.png` // opcional
  ]*/).then(canvas => {
-          canvas.shuffle(0.3);
-          canvas.puzzle.pieces.filter(it => !it.metadata.left).forEach(it => it.translate(400, 0))
+          canvas.shuffle(0.5);
+          canvas.puzzle.pieces.filter(it => !it.metadata.left).forEach(it => it.translate(600, 0))
           canvas.draw();
         });
 
