@@ -1,0 +1,12 @@
+---
+locale: es
+tags: []
+layout: input_kindergarten
+editor: custom
+type: problem
+extra_visible: false
+language: puzzle
+teacher_info: ''
+manual_evaluation: false
+choices: []
+name: Multiplechoice
