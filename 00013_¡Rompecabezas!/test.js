@@ -15,7 +15,7 @@ Muzzle.pieceSize = 50;
 
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
 
-Muzzle.basic(5, 5, 'https://flbulgarelli.github.io/headbreaker/static/berni.jpg')
+Muzzle.basic(3, 3, 'https://flbulgarelli.github.io/headbreaker/static/berni.jpg')
 
 
 // caso "choice"
