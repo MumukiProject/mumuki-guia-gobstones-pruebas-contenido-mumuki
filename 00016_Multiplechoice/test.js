@@ -4,7 +4,7 @@ $('#muzzle-canvas').css('margin-top', '15px');
 $('#muzzle-canvas').css('border-radius', '10px');
 
 // estas tres lineas son opcionales
-Muzzle.canvasHeight = 600;
+Muzzle.canvasHeight = 380;
 Muzzle.canvasWidth = 1200;
 Muzzle.pieceSize = 100;
 // Muzzle.strokeWidth = 0;
