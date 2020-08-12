@@ -3,7 +3,7 @@ mumuki.load(function() {
 });
 
 // estas tres lineas son opcionales
-Muzzle.canvasHeight = 600;
+Muzzle.canvasHeight = 380;
 Muzzle.canvasWidth = 600;
 Muzzle.pieceSize = 50;
 // Muzzle.strokeWidth = 0;
