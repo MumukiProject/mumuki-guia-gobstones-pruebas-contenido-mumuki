@@ -1,6 +1,6 @@
 $('.mu-kids-state-image').css('opacity', '0.5');
-$('canvas').css('border', '5px');
-$('canvas').css('border-style', 'solid');
+$('canvas.style').css('border', '5px');
+$('canvas.style').css('border-style', 'solid');
 $('.btn-submit-container').remove();
 $('.progress-list-flex a.active:after').css('content', '13');
 
