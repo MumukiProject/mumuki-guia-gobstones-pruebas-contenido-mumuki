@@ -6,14 +6,12 @@ mumuki.load(function() {
 Muzzle.canvasHeight = 380;
 Muzzle.canvasWidth = 600;
 Muzzle.pieceSize = 50;
+Muzzlecanvas.borderFill = 20;
 // Muzzle.strokeWidth = 0;
 
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
 
-Muzzle.basic(5, 5, 'https://flbulgarelli.github.io/headbreaker/static/berni.jpg').then(canvas => {
-          canvas.borderFill(20);
-});
-
+Muzzle.basic(5, 5, 'https://flbulgarelli.github.io/headbreaker/static/berni.jpg')
 
 
 // caso "choice"
