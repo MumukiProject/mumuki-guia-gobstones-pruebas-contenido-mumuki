@@ -1,4 +1,4 @@
-$('.col-md-12 text-box').remove();
+$('.capital-animation').remove();
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 500;
