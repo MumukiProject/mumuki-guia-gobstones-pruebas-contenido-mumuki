@@ -21,8 +21,8 @@ Muzzle.match([
  ]*/).then(canvas => {
           canvas.shuffle(0.5);
           canvas.puzzle.pieces.filter(it => !it.metadata.left).forEach(it => it.translate(600, 0))
-          canvas.puzzle.pieces[0].relocateTo(10, 10)
-          canvas.puzzle.pieces[1].relocateTo(10, 60)
-          canvas.puzzle.pieces[2].relocateTo(10, 120)
+          canvas.puzzle.pieces[0].relocateTo(60, 60)
+          canvas.puzzle.pieces[1].relocateTo(60, 120)
+          canvas.puzzle.pieces[2].relocateTo(60, 180)
           canvas.draw();
         });
