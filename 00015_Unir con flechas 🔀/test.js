@@ -1,3 +1,5 @@
+$('capital-animation mu-kids-character-context').remove()
+
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 500;
 Muzzle.canvasWidth = 1200;
