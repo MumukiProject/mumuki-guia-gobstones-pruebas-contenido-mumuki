@@ -6,7 +6,7 @@ $('.mu-kids-exercise .mu-kids-character .mu-kids-character-speech-bubble').css('
 $('.mu-kids-character').append('<div position="left" margin-left="100px"><img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_apagada-01_1597270246443.png" alt="luz_apagada-01_1597270246443.png" width="10%" height="10%" style = "margin-left: 90%;" onclick="changeBulb()"></div>');
 
 function changeBulb() {
-  $('img[src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_apagada-01_1597270246443.png"]').attr("src", "https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_encendida-01_1597270985305.png" alt="luz_encendida-01_1597270985305.png");
+  $('img[src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_apagada-01_1597270246443.png"]').attr("src", "https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_encendida-01_1597270985305.png" alt='luz_encendida-01_1597270985305.png'");
 }
 
 // estas tres lineas son opcionales
