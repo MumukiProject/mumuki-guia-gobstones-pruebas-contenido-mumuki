@@ -1,5 +1,5 @@
-$('.mu-kids-state-image').css('opacity',  '0.5');
-$('canvas').css('border-style',  'solid');
+$('.mu-kids-state-image').css('opacity', '0.5');
+$('canvas').css('border-style', 'solid');
 $('.btn-submit-container').remove;
 
 // estas tres lineas son opcionales
