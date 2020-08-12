@@ -3,14 +3,10 @@ $('#muzzle-canvas').css('border-style', 'solid');
 $('#muzzle-canvas').css('margin-top', '15px');
 $('#muzzle-canvas').css('border-radius', '10px');
 $('.mu-kids-exercise .mu-kids-character .mu-kids-character-speech-bubble').css('width', '50%');
-$('.mu-kids-character').append('<div position="left" margin-left="100px"><img class="popup" src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_encendida-01_1597270985305.png" alt="luz_apagada-01_1597270246443.png" width="10%" height="10%" style = "margin-left: 90%;" onclick="openPopUp()"><span class="popuptext">hola</span></div>');
-$(".popup").css({'position':'relative', 'display':'inline-block', 'cursor':'pointer'})
-$(".popup .popuptext").css({'visibility':'hidden','width':'160px','background-color':'#555','color':'#fff','text-align':'center','border-radius':'6px','padding':'8px 0','position':'absolute','z-index':'1','bottom':'125%','left':'50%','margin-left':'-80px'})
-
+$('.mu-kids-character').append('<div position="left" margin-left="100px"><img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_encendida-01_1597270985305.png" alt="luz_apagada-01_1597270246443.png" width="10%" height="10%" style = "margin-left: 90%;" onclick="openPopUp()"></div>');
 
 function openPopUp() {
-  popup = $("img[src='https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_encendida-01_1597270985305.png']");
-  popup.classList.toggle("show");
+  $('img[src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_encendida-01_1597270985305.png"]').append('<span>hola</hola>')
 }
 
 // estas tres lineas son opcionales
