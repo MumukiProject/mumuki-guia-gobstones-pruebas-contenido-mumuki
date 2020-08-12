@@ -18,9 +18,9 @@ Muzzle.match([
    `${baseUrl}/chips_mucho.png`,
  ]/*, [
    `${baseUrl}/choc_mitad_vacio2.png` // opcional
- ]*/);/*.then(canvas => {
-          canvas.shuffle(0.4);
+ ]*/).then(canvas => {
+          canvas.shuffle(0.3);
           canvas.puzzle.pieces.filter(it => !it.metadata.left).forEach(it => it.translate(400, 0))
           canvas.draw();
-        });*/
+        });
 
