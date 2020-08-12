@@ -1,3 +1,7 @@
+mumuki.load(function() {
+  $('.mu-kids-state-image img').style.opacity = 0.3;
+});
+
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 600;
 Muzzle.canvasWidth = 600;
@@ -8,9 +12,7 @@ const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gob
 
 Muzzle.basic(5, 5, 'https://flbulgarelli.github.io/headbreaker/static/berni.jpg');
 
-mumuki.load(function() {
-  $('img').style.opacity = 0.3;
-});
+
 
 // caso "choice"
 //Muzzle.match([
