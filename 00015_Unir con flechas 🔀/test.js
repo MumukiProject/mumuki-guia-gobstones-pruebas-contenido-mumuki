@@ -16,9 +16,9 @@ Muzzle.match([
    `${baseUrl}/va_fru.png`,
    `${baseUrl}/cu_vai.png`,
    `${baseUrl}/chips_mucho.png`,
- ], [
+ ]/*, [
    `${baseUrl}/choc_mitad_vacio2.png` // opcional
- ]).then(canvas => {
+ ]*/).then(canvas => {
           canvas.shuffle(0.4);
           canvas.puzzle.pieces.filter(it => !it.metadata.left).forEach(it => it.translate(400, 0))
           canvas.draw();
