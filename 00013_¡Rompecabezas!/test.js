@@ -5,7 +5,7 @@ $('#muzzle-canvas').css('margin-top', '15px');
 $('#muzzle-canvas').css('border-radius', '10px');
 $('#muzzle-canvas').css('width', '198%');
 $('.btn-submit-container').remove();
-$('.progress-list-flex a.active:after').css('content', '13');
+$('a[href="/staging/exercises/10745-pruebas-contenido-mumuki-rompecabezas"]').css('content', '13');
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 380;
