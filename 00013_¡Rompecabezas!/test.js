@@ -1,5 +1,5 @@
 mumuki.load(function() {
-  $('canvas').style.border = "thick solid black";
+  $('mu-kids-state-image').style.opacity = "0.5";
 });
 
 // estas tres lineas son opcionales
