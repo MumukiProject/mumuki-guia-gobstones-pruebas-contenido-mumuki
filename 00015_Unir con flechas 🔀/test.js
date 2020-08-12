@@ -1,4 +1,5 @@
 $('.capital-animation').remove();
+$('.mu-kids-character').append('<div position="left" margin-left="100px" opacity="0"><img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-pruebas-contenido-mumuki/master/assets/luz_apagada-01_1597270246443.png" alt="luz_apagada-01_1597270246443.png" width="10%" height="10%" style = "margin-left: 90%;" onclick="changeBulb()"></div>');
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 500;
