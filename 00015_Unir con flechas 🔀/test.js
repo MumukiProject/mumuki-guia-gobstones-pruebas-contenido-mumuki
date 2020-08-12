@@ -1,4 +1,4 @@
-$('img .capital-animation mu-kids-character-context').remove();
+$('.col-md-12 text-box').remove();
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 500;
