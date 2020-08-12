@@ -1,5 +1,5 @@
 mumuki.load(function() {
-  $('.mu-kids-state-image img').style.opacity = 0.3;
+  $('.mu-kids-state-image img').style.opacity = "0.3";
 });
 
 // estas tres lineas son opcionales
