@@ -1,7 +1,7 @@
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 600;
 Muzzle.canvasWidth = 1200;
-Muzzle.pieceSize = 200;
+Muzzle.pieceSize = 100;
 // Muzzle.strokeWidth = 0;
 
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
@@ -18,5 +18,9 @@ Muzzle.match([
 ]).then(canvas => {
           canvas.shuffle(0.4);
           canvas.puzzle.pieces.filter(it => !it.metadata.left).forEach(it => it.translate(400, 0))
+          canvas.puzzle.pieces[0].relocateTo(360, 60)
+          canvas.puzzle.pieces[2].relocateTo(360, 200)
+          canvas.puzzle.pieces[4].relocateTo(360, 340)
+          canvas.puzzle.pieces[1].relocateTo(760, 200)
           canvas.draw();
         });
