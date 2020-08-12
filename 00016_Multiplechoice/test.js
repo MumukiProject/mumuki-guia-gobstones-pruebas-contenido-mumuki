@@ -2,6 +2,7 @@ $('#muzzle-canvas').css('border', '3px');
 $('#muzzle-canvas').css('border-style', 'solid');
 $('#muzzle-canvas').css('margin-top', '15px');
 $('#muzzle-canvas').css('border-radius', '10px');
+$('.mu-kids-character-speech-bubble no-tabs').css('width', '50%');
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 450;
