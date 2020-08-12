@@ -10,7 +10,8 @@ Muzzle.basic(5, 5, 'https://flbulgarelli.github.io/headbreaker/static/berni.jpg'
 
 mumuki.load(function() {
   $('mu-kids-state-image').remove;
-)}
+})
+
 // caso "choice"
 //Muzzle.match([
 //  `${baseUrl}/va_vacio.png`
