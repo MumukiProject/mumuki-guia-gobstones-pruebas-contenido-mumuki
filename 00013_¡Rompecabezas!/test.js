@@ -1,12 +1,12 @@
 mumuki.load(function() {
-  $('.mu-kids-state-image img').style.opacity = "0.3";
+  $('canvas').style.border = "thick solid black";
 });
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 380;
 Muzzle.canvasWidth = 600;
 Muzzle.pieceSize = 50;
-MuzzleCanvas.borderFill = 20;
+Canvas.borderFill = 20;
 // Muzzle.strokeWidth = 0;
 
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
