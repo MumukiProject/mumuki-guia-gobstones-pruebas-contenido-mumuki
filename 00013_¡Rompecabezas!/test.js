@@ -1,11 +1,11 @@
-$('.mu-kids-state-image').css('opacity', '0.5');
+/*$('.mu-kids-state-image').css('opacity', '0.5');
 $('#muzzle-canvas').css('border', '3px');
 $('#muzzle-canvas').css('border-style', 'solid');
 $('#muzzle-canvas').css('margin-top', '15px');
 $('#muzzle-canvas').css('border-radius', '10px');
 $('#muzzle-canvas').css('width', '198%');
 $('.btn-submit-container').remove();
-$('.progress-list-flex a.active:after').css('content', '13');
+$('.progress-list-flex a.active:after').css('content', '13');*/
 
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 380;
