@@ -24,7 +24,7 @@ Muzzle.match([
           canvas.draw();
         });
 
-canvas.puzzle.pieces[0].relocateTo(10, 10)
-          canvas.puzzle.pieces[1].relocateTo(0, 60)
-          canvas.puzzle.pieces[2].relocateTo(0, 120)
-          canvas.draw();
+canvas.puzzle.pieces[0].relocateTo(0, 10)
+canvas.puzzle.pieces[1].relocateTo(0, 60)
+canvas.puzzle.pieces[2].relocateTo(0, 120)
+canvas.draw();
