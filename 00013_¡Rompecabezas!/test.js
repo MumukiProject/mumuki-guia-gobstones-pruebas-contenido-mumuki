@@ -10,7 +10,7 @@ $('.progress-list-flex a.active:after').css('content', '13');
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 380;
 Muzzle.canvasWidth = 600;
-Muzzle.pieceSize = 50;
+Muzzle.pieceSize = 100;
 // Muzzle.strokeWidth = 0;
 
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
