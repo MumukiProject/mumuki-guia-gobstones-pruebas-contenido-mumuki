@@ -8,8 +8,7 @@ const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gob
 
 Muzzle.basic(5, 5, 'https://flbulgarelli.github.io/headbreaker/static/berni.jpg');
 
-$('mu-kids-state-image').setAttribute("display", "none;");
-
+$('mu-kids-state-image').remove;
 // caso "choice"
 //Muzzle.match([
 //  `${baseUrl}/va_vacio.png`
