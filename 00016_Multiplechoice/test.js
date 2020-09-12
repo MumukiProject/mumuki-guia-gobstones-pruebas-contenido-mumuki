@@ -8,7 +8,7 @@ $('.mu-kids-character').append('<div position="left" margin-left="100px"><img sr
 // estas tres lineas son opcionales
 Muzzle.canvasHeight = 450;
 Muzzle.canvasWidth = 1200;
-Muzzle.pieceSize = 80;
+//Muzzle.pieceSize = 80;
 // Muzzle.strokeWidth = 0;
 
 const baseUrl = 'https://raw.githubusercontent.com/MumukiProject/mumuki-guia-gobstones-alternativa-kids/master/assets/attires/';
