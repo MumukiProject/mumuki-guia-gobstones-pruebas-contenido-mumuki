@@ -1,4 +1,4 @@
-<h2>¡¡LEER!!</h2>
+<h2 text-align="center">¡¡LEER!!</h2>
 
 <gs-toolbox toolbox-url="https://gobstones.runners.mumuki.io/assets/minimal-kindergarten-toolbox.xml"></gs-toolbox>
 
