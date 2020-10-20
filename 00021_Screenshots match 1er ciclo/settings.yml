@@ -1,0 +1,2 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+game_framework: true
