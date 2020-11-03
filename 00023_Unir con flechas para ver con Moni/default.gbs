@@ -1,1 +1,5 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"><variables></variables><block type="procedures_defnoreturnnoparams" id=",4;f7!);]ml_5vPmY,aS" x="275" y="1"><field name="NAME">Main</field></block></xml>
+<xml>
+<block type="procedures_defnoreturnnoparams" x="275" y="1">
+<field name="NAME">Main</field>
+</block>
+</xml>
