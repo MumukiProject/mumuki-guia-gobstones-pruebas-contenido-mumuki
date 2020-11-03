@@ -2,7 +2,7 @@
 locale: es
 tags: []
 layout: input_kindergarten
-editor: code
+editor: custom
 type: problem
 extra_visible: false
 teacher_info: ''
