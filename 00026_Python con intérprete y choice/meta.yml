@@ -15,4 +15,4 @@ choices:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   value: no soy la correcta
   checked: false
-name: New exercise
+name: Python con intérprete y choice
