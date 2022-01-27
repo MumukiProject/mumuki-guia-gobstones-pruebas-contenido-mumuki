@@ -22,5 +22,5 @@ cell 3 0 Negro 2
 head 3 1
 </gs-board>
 
-<a class="sr-only"> hola </a>
+<a class="sr-only sr-only-focusable"> hola </a>
 
