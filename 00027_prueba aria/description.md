@@ -24,5 +24,5 @@ cell 3 0 Negro 2
 head 3 1
 </gs-board>
 
-<a class="sr-only sr-only-focusable"> hola probando hello </a>
+<a href="../complements/164-pruebas-contenido-mumuki">Referencia para los lectores de pantalla</a>
 
