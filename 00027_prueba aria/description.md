@@ -4,7 +4,7 @@ Los tableros están compuestos por celdas y cuentan con un cabezal que indica la
 Cada celda puede tener bolitas azules, negras, verdes o rojas. Los ejercicios requerirán desplazarse sobre el tablero y sus celdas y operar con las bolitas.
 El origen de estos tableros, es decir, el 0 0, se encuentra en la esquina inferior izquierda, incrementando sus columnas hacia arriba y sus  filas hacia la derecha. En Gobstones las direcciones se realizan utilizando los puntos cardinales, es decir que el origen del tablero se encuentra en la esquina de los extremos Sur y Oeste.
 
-Por ejemplo, el tablero
+Por ejemplo, el tablero:
 
 <gs-board>
 GBB/1.0
