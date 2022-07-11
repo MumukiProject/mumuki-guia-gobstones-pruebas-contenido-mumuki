@@ -2,7 +2,7 @@
 locale: es
 tags: []
 layout: input_right
-editor: code
+editor: external
 type: problem
 extra_visible: false
 language: python3
