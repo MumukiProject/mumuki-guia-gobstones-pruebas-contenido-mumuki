@@ -26,4 +26,4 @@ Plaza 800,142,345000,22080000,2430,155493,64,SEGUNDO,VILLA ORTUZAR,15
 
   def test_debe_tener_dos_columnas_barrio_y_cantidad(self):
     resultado = terrenos_por_barrio(self.tabla)
-    self.assertEquals(resultado.columns, ["barrio", "cantidad"])        
+    self.assertEquals(resultado.columns.tolist(), ["barrio", "cantidad"])        
